@@ -90,7 +90,7 @@ body{
     margin: 0 auto;
     position: relative;
     height: 20px;
-  
+
 }
 
 .deadline-days .inner {
@@ -1163,18 +1163,25 @@ div.a{
           animation-timing-function: var(--easing) !important;
 }
 
-
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: white;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: $border-radius-size + 5;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+  &:focus {
+    outline: 0;
+  }
+}
 footer{
   text-align: center ;
-  bottom: 0 !important;
-  position: relative;
-    margin-top: 15%; /* negative value of footer height */
-
-
-
-
-
-
+  left: 50%;
 }
 .arrow {
   text-align: center;
